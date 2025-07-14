@@ -1,0 +1,27 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "ja": "枠固定プラグイン",
+    "en": "waku"
+  },
+  "description": {
+    "ja": "枠固定プラグイン",
+    "en": "waku"
+  },
+  "icon": "image/icon.png",
+
+  "desktop": {
+    "js": [
+      "https://code.jquery.com/jquery-3.7.1.js",
+      "js/fixed_midashi.js",
+      "js/desktop.js"
+    ]
+  },
+  "config": {
+    "html": "html/config.html",
+    "js": ["js/config.js"],
+    "css": ["css/51-modern-default.css", "css/config.css"]
+  }
+}
